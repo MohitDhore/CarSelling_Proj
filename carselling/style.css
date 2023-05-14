@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav_bar {
+    padding: 10px;
+}
+
+#navbarSupportedContent {
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 50%, #ffffff 100%);
+
+}
+
+/* .navbar-brand:hover {  
+} */
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+    transition: transform 0.2s ease, opacity .3s ease-out;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.trip {
+    padding: 4px 100px;
+    border-radius: 20px;
+    background: white;
+    color: Green;
+    font-weight: bold;
+}
+
+/*Table
+.divTable{
+	display: table;
+	width: 30%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 5px 10px;
+    border-radius: 20px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+
+     <div class="divTable">
+            <div class="divTableBody">
+            <div class="divTableRow">
+            <div class="divTableCell">Round Trip</div>
+            </div>
+            <br/>
+            <div class="divTableRow">
+            <div class="divTableCell">Pick Up Location</div>
+            </div>
+            <br/>
+            <div class="divTableRow">
+            <div class="divTableCell">Date</div>
+            </div>
+            <br/>
+            <div class="divTableRow">
+            <div class="divTableCell">Find Cars</div>
+            </div>
+            <br/>
+            </div>
+            </div>
+}*/
+
+
+
+#location {
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.booking {
+    border: 2px solid black;
+    background-image: url("Images/bg.jpg");
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    background-color: lightgreen;
+}
+
+.booking #pickup {
+    border-radius: 10px;
+}
+
+.booking #drop {
+    border-radius: 10px;
+
+}

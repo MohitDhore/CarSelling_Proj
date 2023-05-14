@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,500&family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: linear-gradient(rgb(245, 206, 206), rgb(188, 240, 188), rgb(34, 34, 38));
+}
+
+
+.head {
+    text-align: center;
+    /* font-weight: bolder; */
+    /* color: aliceblue; */
+    font-size: 20px;
+
+    /* font-size: 25px;  */
+    background: linear-gradient(rgb(255, 254, 254), rgb(243, 203, 174), rgb(234, 166, 222));
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.head span {
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+.container-1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    background: linear-gradient(rgb(207, 227, 217), rgb(203, 218, 225), rgb(127, 108, 246));
+
+}
+
+.album_img {
+
+    border-radius: 20px;
+    transition: transform 0.8s;
+
+    margin: 10px;
+    width: auto;
+    height: auto;
+    width: fit-content;
+}
+
+.album_img:hover {
+    transform: scale(1.05);
+
+}
+
+.card-text {
+    font-size: 18px;
+
+}
